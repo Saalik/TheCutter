@@ -50,7 +50,7 @@ def TheOtherHolf (choice):
 
 
 def menu ():
-	Poney= raw_input("Please select what you want? \n1. Dual Monitors wallpaper split (Yay!) \n2. Nazi mode (Fuck you just do it) \nOption 1 will ask you the path of the folder, option 2 will just execute in current folder (pun intented)\nDo not answer with a different number unless you are curious")
+	Poney= raw_input("Please select what you want? \n1. Dual Monitors wallpaper split (Yay!) \n2. Nazi mode (Fuck you just do it) \nOption 1 will ask you the path of the folder, option 2 will just execute in current folder (pun intented)\nDo not answer with a different number unless you are curious\n")
 	
 	if(int(Poney) ==2 or int(Poney) == 1):
 		TheOtherHolf(int(Poney));
