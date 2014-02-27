@@ -55,17 +55,17 @@ def menu ():
 	if(int(Poney) ==2 or int(Poney) == 1):
 		TheOtherHolf(int(Poney));
 	else:
-		print("Bad answer deleting all files\n Processing ")
+		print("Bad answer deleting all files\nProcessing ")
 		time.sleep(1);
-		print(" .");
+		print(".");
 		time.sleep(1);
-		print(" .");
+		print(".");
 		time.sleep(1);
-		print(" .");
+		print(".");
 		time.sleep(1);
-		print(" .");
+		print(".");
 		time.sleep(1);
-		print(" .");
+		print(".");
 
 menu();
 
